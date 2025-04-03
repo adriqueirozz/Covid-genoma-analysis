@@ -75,7 +75,7 @@ void processarGenoma(const string &arquivoEntrada, const string &arquivoSaida) {
 }
 
 int main() {
-    string arquivoEntrada = "sequences.fasta.txt";
+    string arquivoEntrada = "sequencesFasta.txt"; //ou sequencesFasta2.txt
     string arquivoSaida = "arquivoSaida.txt";
 
     processarGenoma(arquivoEntrada, arquivoSaida);
